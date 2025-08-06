@@ -16,8 +16,8 @@
 body {
   background-image: url(../images/background-pattern-mobile.svg);
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100%;
+  background-position: top -80px center;
+  background-size: 600px;
   background-color: var(--Purple-1);
   color: var(--Purple-3);
   font-family: "Work Sans", sans-serif;
@@ -35,7 +35,7 @@ main {
   border-radius: 0.4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   box-shadow: 0 2rem 2rem var(--shadow);
 }
 
@@ -45,32 +45,45 @@ header {
 }
 
 header img,
-.items .questions img {
-  width: 1.5rem;
+.icon {
+  width: 2rem;
 }
 
-.items .questions img {
-  cursor: pointer;
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: clamp(0.9rem, 1vw, 1rem);
 }
 
-.items .questions {
+.question {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 600;
+  color: var(--Purple-3);
 }
 
-.items .questions p {
-  width: 75%;
-  font-weight: 600;
+.question {
   cursor: pointer;
 }
 
-.items .questions p:hover {
+.question:hover {
   color: var(--hover);
 }
 
-.items .answers {
+.question span {
+  margin-inline-start: 1.5rem;
+}
+
+.answer {
   display: none;
+}
+
+.answer.show {
+  display: block;
+  color: var(--Purple-2);
+  line-height: 1.5;
 }
 
 hr {
@@ -80,17 +93,18 @@ hr {
   margin: 1rem 0;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 601px) {
   body {
     background-image: url(../images/background-pattern-desktop.svg);
+    background-size: auto;
+    background-position: top -100px center;
   }
 
-  p {
-    font-size: 0.8rem;
+  main {
+    width: 33rem;
   }
 
-  .items .questions p {
-    width: 100%;
-    margin-inline-end: 1rem;
+  .faq-item {
+    gap: 0.5rem;
   }
 }
