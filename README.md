@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/Innocent-Leo/FAQ-accordion.git)
+- Live Site URL: [Live Demo](https://faq-accordion-14590.netlify.app/)
 
 ## My process
 
@@ -63,6 +63,6 @@ I’d like to explore further:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Innocent-Leo](https://www.frontendmentor.io/profile/Innocent-Leo)
+- LinkedIn - [@Innocent-Okeke](https://www.linkedin.com/in/innocentokeke)
+- Twitter - [@itz_saintleo](https://www.twitter.com/itz_saintleo)
