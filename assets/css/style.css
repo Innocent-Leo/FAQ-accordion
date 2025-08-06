@@ -62,9 +62,6 @@ header img,
   justify-content: space-between;
   font-weight: 600;
   color: var(--Purple-3);
-}
-
-.question {
   cursor: pointer;
 }
 
@@ -87,7 +84,7 @@ header img,
 }
 
 hr {
-  height: 1px;
+  height: 0.07rem;
   background-color: var(--Purple-1);
   border: none;
   margin: 1rem 0;
